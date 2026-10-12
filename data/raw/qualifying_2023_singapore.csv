@@ -1,0 +1,21 @@
+Year,Grand Prix,DriverNumber,Abbreviation,FullName,TeamName,Position,Q1,Q2,Q3
+2023,Singapore,55,SAI,Carlos Sainz,Ferrari,1.0,0 days 00:01:32.339000,0 days 00:01:31.439000,0 days 00:01:30.984000
+2023,Singapore,63,RUS,George Russell,Mercedes,2.0,0 days 00:01:32.331000,0 days 00:01:31.743000,0 days 00:01:31.056000
+2023,Singapore,16,LEC,Charles Leclerc,Ferrari,3.0,0 days 00:01:32.406000,0 days 00:01:32.012000,0 days 00:01:31.063000
+2023,Singapore,4,NOR,Lando Norris,McLaren,4.0,0 days 00:01:32.483000,0 days 00:01:31.951000,0 days 00:01:31.270000
+2023,Singapore,44,HAM,Lewis Hamilton,Mercedes,5.0,0 days 00:01:32.651000,0 days 00:01:32.019000,0 days 00:01:31.485000
+2023,Singapore,20,MAG,Kevin Magnussen,Haas F1 Team,6.0,0 days 00:01:32.242000,0 days 00:01:31.892000,0 days 00:01:31.575000
+2023,Singapore,14,ALO,Fernando Alonso,Aston Martin,7.0,0 days 00:01:32.584000,0 days 00:01:31.835000,0 days 00:01:31.615000
+2023,Singapore,31,OCO,Esteban Ocon,Alpine,8.0,0 days 00:01:32.369000,0 days 00:01:32.089000,0 days 00:01:31.673000
+2023,Singapore,27,HUL,Nico Hulkenberg,Haas F1 Team,9.0,0 days 00:01:32.100000,0 days 00:01:31.994000,0 days 00:01:31.808000
+2023,Singapore,40,LAW,Liam Lawson,AlphaTauri,10.0,0 days 00:01:32.215000,0 days 00:01:32.166000,0 days 00:01:32.268000
+2023,Singapore,1,VER,Max Verstappen,Red Bull Racing,11.0,0 days 00:01:32.398000,0 days 00:01:32.173000,
+2023,Singapore,10,GAS,Pierre Gasly,Alpine,12.0,0 days 00:01:32.452000,0 days 00:01:32.274000,
+2023,Singapore,11,PER,Sergio Perez,Red Bull Racing,13.0,0 days 00:01:32.099000,0 days 00:01:32.310000,
+2023,Singapore,23,ALB,Alexander Albon,Williams,14.0,0 days 00:01:32.668000,0 days 00:01:33.719000,
+2023,Singapore,22,TSU,Yuki Tsunoda,AlphaTauri,15.0,0 days 00:01:31.991000,,
+2023,Singapore,77,BOT,Valtteri Bottas,Alfa Romeo,16.0,0 days 00:01:32.809000,,
+2023,Singapore,81,PIA,Oscar Piastri,McLaren,17.0,0 days 00:01:32.902000,,
+2023,Singapore,2,SAR,Logan Sargeant,Williams,18.0,0 days 00:01:33.252000,,
+2023,Singapore,24,ZHO,Guanyu Zhou,Alfa Romeo,19.0,0 days 00:01:33.258000,,
+2023,Singapore,18,STR,Lance Stroll,Aston Martin,20.0,0 days 00:01:33.397000,,
