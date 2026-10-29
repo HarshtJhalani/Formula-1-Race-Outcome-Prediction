@@ -1,211 +1,127 @@
+"""Build pre-race features. Every history feature uses shift(1), so a race never sees its own result."""
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 
-
-# Project paths
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-
 RAW_DATA_DIR = PROJECT_ROOT / "data" / "raw"
 PROCESSED_DATA_DIR = PROJECT_ROOT / "data" / "processed"
 
-PROCESSED_DATA_DIR.mkdir(parents=True, exist_ok=True)
+FORM_WINDOW = 5
+
+# Same team, new name across seasons
+TEAM_MAP = {
+    "Red Bull Racing": "Red Bull",
+    "Alpine F1 Team": "Alpine",
+    "AlphaTauri": "RB",
+    "RB F1 Team": "RB",
+    "Alfa Romeo": "Sauber",
+}
+
+FEATURES = [
+    "GridPosition", "PitLaneStart", "GapToPolePct", "NoQualiTime", "GridVsTeammate",
+    "DriverPodiumRate", "DriverAvgFinish", "DriverAvgGrid", "RacesSoFar",
+    "TeamPodiumRate", "TeamAvgFinish",
+]
+
+# Ranked within each race; value = higher is better?
+RANK_COLS = {
+    "TeamPodiumRate": True, "DriverPodiumRate": True,
+    "TeamAvgFinish": False, "DriverAvgFinish": False, "GapToPolePct": False,
+}
+MODEL_FEATURES = FEATURES + ["LogGrid", "InvGrid"] + [f"{c}Rank" for c in RANK_COLS]
+
+KEEP = ["Year", "Round", "GrandPrix", "EventDate", "Abbreviation", "Team"] + MODEL_FEATURES + ["FinishingPosition", "Podium"]
 
 
-def create_features(year: int, grand_prix: str) -> pd.DataFrame:
-    """
-    Merge qualifying and race results into a driver-level dataset.
+def add_quali_features(df):
+    df = df.copy()
+    pole_time = df.groupby(["Year", "Round"])["BestQualiTime"].transform("min")
+    df["GapToPolePct"] = (df["BestQualiTime"] / pole_time - 1) * 100
+    # No time set -> slowest in that race; whole race missing (Miami 2025) -> NaN
+    race_max = df.groupby(["Year", "Round"])["GapToPolePct"].transform("max")
+    df["GapToPolePct"] = df["GapToPolePct"].fillna(race_max)
+    df["NoQualiTime"] = df["BestQualiTime"].isna().astype(int)
 
-    Parameters
-    ----------
-    year : int
-        Formula 1 season.
-    grand_prix : str
-        Grand Prix name.
+    teammate_grid = df.groupby(["Year", "Round", "Team"])["GridPosition"].transform("sum") - df["GridPosition"]
+    df["GridVsTeammate"] = df["GridPosition"] - teammate_grid
+    return df
 
-    Returns
-    -------
-    pd.DataFrame
-        Combined dataset with pre-race features and race outcome targets.
-    """
 
-    event_name = grand_prix.lower().replace(" ", "_")
+def past_rolling(series, window=FORM_WINDOW):
+    # shift(1): current race excluded
+    return series.shift(1).rolling(window, min_periods=1).mean()
 
-    # Construct input file paths
-    qualifying_file = (
-        RAW_DATA_DIR / f"qualifying_{year}_{event_name}.csv"
+
+def add_driver_form(df):
+    df = df.sort_values("EventDate").copy()
+    by_driver = df.groupby("Abbreviation")
+    df["DriverPodiumRate"] = by_driver["Podium"].transform(past_rolling)
+    df["DriverAvgFinish"] = by_driver["FinishingPosition"].transform(past_rolling)
+    df["DriverAvgGrid"] = by_driver["GridPosition"].transform(past_rolling)
+    df["RacesSoFar"] = by_driver.cumcount()
+    return df
+
+
+def add_team_form(df):
+    team_race = (
+        df.groupby(["Team", "EventDate"], as_index=False)
+        .agg(TeamPodiums=("Podium", "sum"), TeamAvgFinishRace=("FinishingPosition", "mean"))
+        .sort_values("EventDate")
     )
+    by_team = team_race.groupby("Team")
+    team_race["TeamPodiumRate"] = by_team["TeamPodiums"].transform(past_rolling)
+    team_race["TeamAvgFinish"] = by_team["TeamAvgFinishRace"].transform(past_rolling)
+    return df.merge(team_race[["Team", "EventDate", "TeamPodiumRate", "TeamAvgFinish"]],
+                    on=["Team", "EventDate"], how="left", validate="many_to_one")
 
-    race_file = (
-        RAW_DATA_DIR / f"race_{year}_{event_name}.csv"
-    )
 
-    # Validate input files
-    if not qualifying_file.exists():
-        raise FileNotFoundError(
-            f"Qualifying data not found: {qualifying_file}"
-        )
+def add_race_features(df):
+    """Non-linear grid + form ranked within the race (pre-race info only)."""
+    df = df.copy()
+    df["LogGrid"] = np.log(df["GridPosition"])
+    df["InvGrid"] = 1 / df["GridPosition"]
+    for col, higher_better in RANK_COLS.items():
+        df[f"{col}Rank"] = df.groupby(["Year", "Round"])[col].rank(ascending=not higher_better)
+    return df
 
-    if not race_file.exists():
-        raise FileNotFoundError(
-            f"Race data not found: {race_file}"
-        )
 
-    # Load datasets
-    qualifying = pd.read_csv(qualifying_file)
-    race = pd.read_csv(race_file)
+def build_features(raw):
+    df = raw.copy()
+    df["Team"] = df["TeamName"].replace(TEAM_MAP)
+    df = add_quali_features(df)
+    df = add_driver_form(df)
+    df = add_team_form(df)
+    df = add_race_features(df)
+    return df.sort_values(["EventDate", "GridPosition"]).reset_index(drop=True)
 
-    # Standardize column names
-    qualifying = qualifying.rename(
-        columns={
-            "Position": "QualifyingPosition",
-            "Grand Prix": "GrandPrix",
-            "Q1": "Q1Time",
-            "Q2": "Q2Time",
-            "Q3": "Q3Time",
-        }
-    )
 
-    race = race.rename(
-        columns={
-            "Grand Prix": "GrandPrix",
-            "Position": "FinishingPosition",
-        }
-    )
+def check_no_leakage(raw, year=2023, round_number=10):
+    """Scramble one race's results; its own features must not change."""
+    key = ["Year", "Round", "Abbreviation"]
+    race = f"Year == {year} and Round == {round_number}"
 
-    # Select qualifying features
-    qualifying_columns = [
-        "Year",
-        "GrandPrix",
-        "Abbreviation",
-        "FullName",
-        "TeamName",
-        "QualifyingPosition",
-        "Q1Time",
-        "Q2Time",
-        "Q3Time",
-    ]
+    tampered = raw.copy()
+    mask = (tampered["Year"] == year) & (tampered["Round"] == round_number)
+    tampered.loc[mask, "FinishingPosition"] = tampered.loc[mask, "FinishingPosition"].values[::-1]
+    tampered.loc[mask, "Podium"] = (tampered.loc[mask, "FinishingPosition"] <= 3).astype(int)
 
-    qualifying_columns = [
-        column
-        for column in qualifying_columns
-        if column in qualifying.columns
-    ]
+    before = build_features(raw).query(race).set_index(key)[MODEL_FEATURES].sort_index()
+    after = build_features(tampered).query(race).set_index(key)[MODEL_FEATURES].sort_index()
+    pd.testing.assert_frame_equal(before, after)
 
-    qualifying_features = qualifying[qualifying_columns].copy()
 
-    # Select race targets and identifiers
-    race_columns = [
-        "Year",
-        "GrandPrix",
-        "Abbreviation",
-        "FinishingPosition",
-        "Podium",
-        "PodiumPosition",
-    ]
+def main():
+    raw = pd.read_csv(RAW_DATA_DIR / "races_2022_2025.csv", parse_dates=["EventDate"])
+    check_no_leakage(raw)
 
-    race_columns = [
-        column
-        for column in race_columns
-        if column in race.columns
-    ]
-
-    race_targets = race[race_columns].copy()
-
-    # Merge on event and driver identifiers
-    features = qualifying_features.merge(
-        race_targets,
-        on=["Year", "GrandPrix", "Abbreviation"],
-        how="inner",
-        validate="one_to_one",
-    )
-
-    # Convert qualifying lap times to seconds
-    for column in ["Q1Time", "Q2Time", "Q3Time"]:
-        if column in features.columns:
-            features[column] = (
-                pd.to_timedelta(
-                    features[column],
-                    errors="coerce",
-                ).dt.total_seconds()
-            )
-
-    # Sort by qualifying position
-    features = features.sort_values(
-        "QualifyingPosition",
-        na_position="last",
-    ).reset_index(drop=True)
-
-    # Save processed dataset
-    output_file = (
-        PROCESSED_DATA_DIR
-        / f"features_{year}_{event_name}.csv"
-    )
-
-    features.to_csv(output_file, index=False)
-
-    return features
+    features = build_features(raw)
+    PROCESSED_DATA_DIR.mkdir(parents=True, exist_ok=True)
+    out = PROCESSED_DATA_DIR / "features.csv"
+    features[KEEP].to_csv(out, index=False)
+    print(f"Leakage check OK. Saved {features[KEEP].shape} to {out}")
 
 
 if __name__ == "__main__":
-
-    # Create the feature dataset
-    feature_data = create_features(
-        year=2023,
-        grand_prix="Singapore",
-    )
-
-    # Display processed dataset
-    print("\n" + "-" * 22 + " Processed Feature Dataset " + "-" * 22)
-    print(feature_data.head().to_string(index=False))
-
-    print("\n" + "-" * 22 + " Dataset Summary " + "-" * 22)
-    print(f"Season: {feature_data['Year'].iloc[0]}")
-    print(f"Grand Prix: {feature_data['GrandPrix'].iloc[0]}")
-    print(f"Total drivers: {len(feature_data)}")
-    print(f"Total columns: {len(feature_data.columns)}")
-
-    print("\nAvailable columns:")
-    print(feature_data.columns.tolist())
-
-    # Display race classification
-    if "Podium" in feature_data.columns:
-
-        podium_counts = feature_data["Podium"].value_counts(
-            dropna=False
-        )
-
-        total_drivers = len(feature_data)
-
-        podium_labels = {
-            1.0: "Podium Finish (P1, P2, or P3)",
-            0.0: "No Podium Finish",
-        }
-
-        print("\n" + "-" * 60)
-        print("PODIUM OUTCOME DISTRIBUTION")
-        print("-" * 60)
-
-        for value, count in podium_counts.items():
-
-            if pd.isna(value):
-                label = "Unknown / Missing Finishing Position"
-            else:
-                label = podium_labels.get(
-                    value,
-                    f"Other: {value}",
-                )
-
-            percentage = count / total_drivers * 100
-
-            print(
-                f"{label:<42} "
-                f"{count:>3} drivers "
-                f"({percentage:5.1f}%)"
-            )
-
-        print("-" * 60)
-        print(f"{'Total drivers':<42} {total_drivers:>3}")
-        print("-" * 60)
-
-
+    main()

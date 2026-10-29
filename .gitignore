@@ -1,0 +1,22 @@
+CLAUDE.md
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# FastF1 cache (rebuilt on first run)
+data/cache/
+
+# Per-season partial files (combined CSVs in data/raw/ are kept)
+data/raw/seasons/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

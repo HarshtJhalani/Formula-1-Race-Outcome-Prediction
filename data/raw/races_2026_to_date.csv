@@ -1,0 +1,397 @@
+Year,Round,GrandPrix,EventDate,Abbreviation,FullName,TeamName,GridPosition,FinishingPosition,Status,QualifyingPosition,BestQualiTime,PitLaneStart,Podium
+2026,1,Australian Grand Prix,2026-03-08,RUS,George Russell,Mercedes,1.0,1.0,Finished,1.0,78.518,0,1
+2026,1,Australian Grand Prix,2026-03-08,ANT,Andrea Kimi Antonelli,Mercedes,2.0,2.0,Finished,2.0,78.811,0,1
+2026,1,Australian Grand Prix,2026-03-08,LEC,Charles Leclerc,Ferrari,4.0,3.0,Finished,4.0,79.327,0,1
+2026,1,Australian Grand Prix,2026-03-08,HAM,Lewis Hamilton,Ferrari,7.0,4.0,Finished,7.0,79.478,0,0
+2026,1,Australian Grand Prix,2026-03-08,NOR,Lando Norris,McLaren,6.0,5.0,Finished,6.0,79.475,0,0
+2026,1,Australian Grand Prix,2026-03-08,VER,Max Verstappen,Red Bull,20.0,6.0,Finished,,,0,0
+2026,1,Australian Grand Prix,2026-03-08,BEA,Oliver Bearman,Haas F1 Team,12.0,7.0,Lapped,12.0,80.311,0,0
+2026,1,Australian Grand Prix,2026-03-08,LIN,Arvid Lindblad,RB F1 Team,9.0,8.0,Lapped,9.0,79.971,0,0
+2026,1,Australian Grand Prix,2026-03-08,BOR,Gabriel Bortoleto,Audi,10.0,9.0,Lapped,10.0,80.221,0,0
+2026,1,Australian Grand Prix,2026-03-08,GAS,Pierre Gasly,Alpine F1 Team,14.0,10.0,Lapped,14.0,80.501,0,0
+2026,1,Australian Grand Prix,2026-03-08,OCO,Esteban Ocon,Haas F1 Team,13.0,11.0,Lapped,13.0,80.491,0,0
+2026,1,Australian Grand Prix,2026-03-08,ALB,Alexander Albon,Williams,15.0,12.0,Lapped,15.0,80.941,0,0
+2026,1,Australian Grand Prix,2026-03-08,LAW,Liam Lawson,RB F1 Team,8.0,13.0,Lapped,8.0,79.994,0,0
+2026,1,Australian Grand Prix,2026-03-08,COL,Franco Colapinto,Alpine F1 Team,16.0,14.0,Lapped,16.0,81.2,0,0
+2026,1,Australian Grand Prix,2026-03-08,SAI,Carlos Sainz,Williams,21.0,15.0,Lapped,,,0,0
+2026,1,Australian Grand Prix,2026-03-08,PER,Sergio Pérez,Cadillac F1 Team,18.0,16.0,Lapped,18.0,82.605,0,0
+2026,1,Australian Grand Prix,2026-03-08,STR,Lance Stroll,Aston Martin,22.0,17.0,Lapped,,,0,0
+2026,1,Australian Grand Prix,2026-03-08,ALO,Fernando Alonso,Aston Martin,17.0,18.0,Retired,17.0,81.969,0,0
+2026,1,Australian Grand Prix,2026-03-08,BOT,Valtteri Bottas,Cadillac F1 Team,19.0,19.0,Retired,19.0,83.244,0,0
+2026,1,Australian Grand Prix,2026-03-08,HAD,Isack Hadjar,Red Bull,3.0,20.0,Retired,3.0,79.303,0,0
+2026,1,Australian Grand Prix,2026-03-08,PIA,Oscar Piastri,McLaren,5.0,21.0,Did not start,5.0,79.38,0,0
+2026,1,Australian Grand Prix,2026-03-08,HUL,Nico Hülkenberg,Audi,11.0,22.0,Did not start,11.0,80.303,0,0
+2026,2,Chinese Grand Prix,2026-03-15,ANT,Andrea Kimi Antonelli,Mercedes,1.0,1.0,Finished,1.0,92.064,0,1
+2026,2,Chinese Grand Prix,2026-03-15,RUS,George Russell,Mercedes,2.0,2.0,Finished,2.0,92.286,0,1
+2026,2,Chinese Grand Prix,2026-03-15,HAM,Lewis Hamilton,Ferrari,3.0,3.0,Finished,3.0,92.415,0,1
+2026,2,Chinese Grand Prix,2026-03-15,LEC,Charles Leclerc,Ferrari,4.0,4.0,Finished,4.0,92.428,0,0
+2026,2,Chinese Grand Prix,2026-03-15,BEA,Oliver Bearman,Haas F1 Team,10.0,5.0,Finished,10.0,93.197,0,0
+2026,2,Chinese Grand Prix,2026-03-15,GAS,Pierre Gasly,Alpine F1 Team,7.0,6.0,Finished,7.0,92.873,0,0
+2026,2,Chinese Grand Prix,2026-03-15,LAW,Liam Lawson,RB F1 Team,14.0,7.0,Finished,14.0,93.765,0,0
+2026,2,Chinese Grand Prix,2026-03-15,HAD,Isack Hadjar,Red Bull,9.0,8.0,Finished,9.0,93.121,0,0
+2026,2,Chinese Grand Prix,2026-03-15,SAI,Carlos Sainz,Williams,17.0,9.0,Lapped,17.0,94.317,0,0
+2026,2,Chinese Grand Prix,2026-03-15,COL,Franco Colapinto,Alpine F1 Team,12.0,10.0,Lapped,12.0,93.357,0,0
+2026,2,Chinese Grand Prix,2026-03-15,HUL,Nico Hülkenberg,Audi,11.0,11.0,Lapped,11.0,93.354,0,0
+2026,2,Chinese Grand Prix,2026-03-15,LIN,Arvid Lindblad,RB F1 Team,15.0,12.0,Lapped,15.0,93.784,0,0
+2026,2,Chinese Grand Prix,2026-03-15,BOT,Valtteri Bottas,Cadillac F1 Team,19.0,13.0,Lapped,20.0,95.436,0,0
+2026,2,Chinese Grand Prix,2026-03-15,OCO,Esteban Ocon,Haas F1 Team,13.0,14.0,Lapped,13.0,93.538,0,0
+2026,2,Chinese Grand Prix,2026-03-15,PER,Sergio Pérez,Cadillac F1 Team,21.0,15.0,Lapped,22.0,96.906,0,0
+2026,2,Chinese Grand Prix,2026-03-15,VER,Max Verstappen,Red Bull,8.0,16.0,Retired,8.0,93.002,0,0
+2026,2,Chinese Grand Prix,2026-03-15,ALO,Fernando Alonso,Aston Martin,18.0,17.0,Retired,19.0,95.203,0,0
+2026,2,Chinese Grand Prix,2026-03-15,STR,Lance Stroll,Aston Martin,20.0,18.0,Retired,21.0,95.995,0,0
+2026,2,Chinese Grand Prix,2026-03-15,PIA,Oscar Piastri,McLaren,5.0,19.0,Did not start,5.0,92.55,0,0
+2026,2,Chinese Grand Prix,2026-03-15,NOR,Lando Norris,McLaren,6.0,20.0,Did not start,6.0,92.608,0,0
+2026,2,Chinese Grand Prix,2026-03-15,BOR,Gabriel Bortoleto,Audi,16.0,21.0,Did not start,16.0,93.549,0,0
+2026,2,Chinese Grand Prix,2026-03-15,ALB,Alexander Albon,Williams,22.0,22.0,Did not start,18.0,94.772,0,0
+2026,3,Japanese Grand Prix,2026-03-29,ANT,Andrea Kimi Antonelli,Mercedes,1.0,1.0,Finished,1.0,88.778,0,1
+2026,3,Japanese Grand Prix,2026-03-29,PIA,Oscar Piastri,McLaren,3.0,2.0,Finished,3.0,89.132,0,1
+2026,3,Japanese Grand Prix,2026-03-29,LEC,Charles Leclerc,Ferrari,4.0,3.0,Finished,4.0,89.303,0,1
+2026,3,Japanese Grand Prix,2026-03-29,RUS,George Russell,Mercedes,2.0,4.0,Finished,2.0,89.076,0,0
+2026,3,Japanese Grand Prix,2026-03-29,NOR,Lando Norris,McLaren,5.0,5.0,Finished,5.0,89.409,0,0
+2026,3,Japanese Grand Prix,2026-03-29,HAM,Lewis Hamilton,Ferrari,6.0,6.0,Finished,6.0,89.567,0,0
+2026,3,Japanese Grand Prix,2026-03-29,GAS,Pierre Gasly,Alpine F1 Team,7.0,7.0,Finished,7.0,89.691,0,0
+2026,3,Japanese Grand Prix,2026-03-29,VER,Max Verstappen,Red Bull,11.0,8.0,Finished,11.0,90.262,0,0
+2026,3,Japanese Grand Prix,2026-03-29,LAW,Liam Lawson,RB F1 Team,14.0,9.0,Finished,14.0,90.495,0,0
+2026,3,Japanese Grand Prix,2026-03-29,OCO,Esteban Ocon,Haas F1 Team,12.0,10.0,Finished,12.0,90.309,0,0
+2026,3,Japanese Grand Prix,2026-03-29,HUL,Nico Hülkenberg,Audi,13.0,11.0,Finished,13.0,90.358,0,0
+2026,3,Japanese Grand Prix,2026-03-29,HAD,Isack Hadjar,Red Bull,8.0,12.0,Finished,8.0,89.978,0,0
+2026,3,Japanese Grand Prix,2026-03-29,BOR,Gabriel Bortoleto,Audi,9.0,13.0,Finished,9.0,89.99,0,0
+2026,3,Japanese Grand Prix,2026-03-29,LIN,Arvid Lindblad,RB F1 Team,10.0,14.0,Finished,10.0,90.109,0,0
+2026,3,Japanese Grand Prix,2026-03-29,SAI,Carlos Sainz,Williams,16.0,15.0,Finished,16.0,90.927,0,0
+2026,3,Japanese Grand Prix,2026-03-29,COL,Franco Colapinto,Alpine F1 Team,15.0,16.0,Finished,15.0,90.627,0,0
+2026,3,Japanese Grand Prix,2026-03-29,PER,Sergio Pérez,Cadillac F1 Team,19.0,17.0,Finished,19.0,92.206,0,0
+2026,3,Japanese Grand Prix,2026-03-29,ALO,Fernando Alonso,Aston Martin,21.0,18.0,Lapped,21.0,92.646,0,0
+2026,3,Japanese Grand Prix,2026-03-29,BOT,Valtteri Bottas,Cadillac F1 Team,20.0,19.0,Lapped,20.0,92.33,0,0
+2026,3,Japanese Grand Prix,2026-03-29,ALB,Alexander Albon,Williams,17.0,20.0,Lapped,17.0,91.088,0,0
+2026,3,Japanese Grand Prix,2026-03-29,STR,Lance Stroll,Aston Martin,22.0,21.0,Retired,22.0,92.92,0,0
+2026,3,Japanese Grand Prix,2026-03-29,BEA,Oliver Bearman,Haas F1 Team,18.0,22.0,Retired,18.0,91.09,0,0
+2026,4,Miami Grand Prix,2026-05-03,ANT,Andrea Kimi Antonelli,Mercedes,1.0,1.0,Finished,1.0,87.798,0,1
+2026,4,Miami Grand Prix,2026-05-03,NOR,Lando Norris,McLaren,4.0,2.0,Finished,4.0,88.183,0,1
+2026,4,Miami Grand Prix,2026-05-03,PIA,Oscar Piastri,McLaren,7.0,3.0,Finished,7.0,88.332,0,1
+2026,4,Miami Grand Prix,2026-05-03,RUS,George Russell,Mercedes,5.0,4.0,Finished,5.0,88.197,0,0
+2026,4,Miami Grand Prix,2026-05-03,VER,Max Verstappen,Red Bull,2.0,5.0,Finished,2.0,87.964,0,0
+2026,4,Miami Grand Prix,2026-05-03,HAM,Lewis Hamilton,Ferrari,6.0,6.0,Finished,6.0,88.319,0,0
+2026,4,Miami Grand Prix,2026-05-03,COL,Franco Colapinto,Alpine F1 Team,8.0,7.0,Finished,8.0,88.762,0,0
+2026,4,Miami Grand Prix,2026-05-03,LEC,Charles Leclerc,Ferrari,3.0,8.0,Finished,3.0,88.143,0,0
+2026,4,Miami Grand Prix,2026-05-03,SAI,Carlos Sainz,Williams,13.0,9.0,Finished,13.0,89.54,0,0
+2026,4,Miami Grand Prix,2026-05-03,ALB,Alexander Albon,Williams,15.0,10.0,Finished,15.0,89.72,0,0
+2026,4,Miami Grand Prix,2026-05-03,BEA,Oliver Bearman,Haas F1 Team,12.0,11.0,Lapped,12.0,89.34,0,0
+2026,4,Miami Grand Prix,2026-05-03,BOR,Gabriel Bortoleto,Audi,21.0,12.0,Lapped,21.0,93.737,0,0
+2026,4,Miami Grand Prix,2026-05-03,OCO,Esteban Ocon,Haas F1 Team,14.0,13.0,Lapped,14.0,89.772,0,0
+2026,4,Miami Grand Prix,2026-05-03,LIN,Arvid Lindblad,RB F1 Team,16.0,14.0,Lapped,16.0,90.133,0,0
+2026,4,Miami Grand Prix,2026-05-03,ALO,Fernando Alonso,Aston Martin,17.0,15.0,Lapped,17.0,91.098,0,0
+2026,4,Miami Grand Prix,2026-05-03,PER,Sergio Pérez,Cadillac F1 Team,20.0,16.0,Lapped,20.0,91.967,0,0
+2026,4,Miami Grand Prix,2026-05-03,STR,Lance Stroll,Aston Martin,18.0,17.0,Lapped,18.0,91.164,0,0
+2026,4,Miami Grand Prix,2026-05-03,BOT,Valtteri Bottas,Cadillac F1 Team,19.0,18.0,Lapped,19.0,91.629,0,0
+2026,4,Miami Grand Prix,2026-05-03,HUL,Nico Hülkenberg,Audi,10.0,19.0,Retired,10.0,89.439,0,0
+2026,4,Miami Grand Prix,2026-05-03,LAW,Liam Lawson,RB F1 Team,11.0,20.0,Retired,11.0,89.499,0,0
+2026,4,Miami Grand Prix,2026-05-03,GAS,Pierre Gasly,Alpine F1 Team,9.0,21.0,Retired,9.0,88.81,0,0
+2026,4,Miami Grand Prix,2026-05-03,HAD,Isack Hadjar,Red Bull,22.0,22.0,Retired,22.0,,0,0
+2026,5,Canadian Grand Prix,2026-05-24,ANT,Andrea Kimi Antonelli,Mercedes,2.0,1.0,Finished,2.0,72.646,0,1
+2026,5,Canadian Grand Prix,2026-05-24,HAM,Lewis Hamilton,Ferrari,5.0,2.0,Finished,5.0,72.868,0,1
+2026,5,Canadian Grand Prix,2026-05-24,VER,Max Verstappen,Red Bull,6.0,3.0,Finished,6.0,72.907,0,1
+2026,5,Canadian Grand Prix,2026-05-24,LEC,Charles Leclerc,Ferrari,8.0,4.0,Finished,8.0,72.976,0,0
+2026,5,Canadian Grand Prix,2026-05-24,HAD,Isack Hadjar,Red Bull,7.0,5.0,Lapped,7.0,72.935,0,0
+2026,5,Canadian Grand Prix,2026-05-24,COL,Franco Colapinto,Alpine F1 Team,10.0,6.0,Lapped,10.0,73.697,0,0
+2026,5,Canadian Grand Prix,2026-05-24,LAW,Liam Lawson,RB F1 Team,12.0,7.0,Lapped,12.0,73.897,0,0
+2026,5,Canadian Grand Prix,2026-05-24,GAS,Pierre Gasly,Alpine F1 Team,14.0,8.0,Lapped,14.0,74.187,0,0
+2026,5,Canadian Grand Prix,2026-05-24,SAI,Carlos Sainz,Williams,15.0,9.0,Lapped,15.0,74.273,0,0
+2026,5,Canadian Grand Prix,2026-05-24,BEA,Oliver Bearman,Haas F1 Team,16.0,10.0,Lapped,16.0,74.416,0,0
+2026,5,Canadian Grand Prix,2026-05-24,PIA,Oscar Piastri,McLaren,4.0,11.0,Lapped,4.0,72.781,0,0
+2026,5,Canadian Grand Prix,2026-05-24,HUL,Nico Hülkenberg,Audi,11.0,12.0,Lapped,11.0,73.886,0,0
+2026,5,Canadian Grand Prix,2026-05-24,BOR,Gabriel Bortoleto,Audi,13.0,13.0,Lapped,13.0,74.071,0,0
+2026,5,Canadian Grand Prix,2026-05-24,OCO,Esteban Ocon,Haas F1 Team,17.0,14.0,Lapped,17.0,74.845,0,0
+2026,5,Canadian Grand Prix,2026-05-24,STR,Lance Stroll,Aston Martin,22.0,15.0,Lapped,21.0,76.195,0,0
+2026,5,Canadian Grand Prix,2026-05-24,BOT,Valtteri Bottas,Cadillac F1 Team,21.0,16.0,Lapped,22.0,76.272,0,0
+2026,5,Canadian Grand Prix,2026-05-24,PER,Sergio Pérez,Cadillac F1 Team,20.0,17.0,Retired,20.0,75.429,0,0
+2026,5,Canadian Grand Prix,2026-05-24,NOR,Lando Norris,McLaren,3.0,18.0,Retired,3.0,72.729,0,0
+2026,5,Canadian Grand Prix,2026-05-24,RUS,George Russell,Mercedes,1.0,19.0,Retired,1.0,72.578,0,0
+2026,5,Canadian Grand Prix,2026-05-24,ALO,Fernando Alonso,Aston Martin,19.0,20.0,Retired,19.0,75.196,0,0
+2026,5,Canadian Grand Prix,2026-05-24,ALB,Alexander Albon,Williams,18.0,21.0,Retired,18.0,74.851,0,0
+2026,5,Canadian Grand Prix,2026-05-24,LIN,Arvid Lindblad,RB F1 Team,9.0,22.0,Did not start,9.0,73.28,0,0
+2026,6,Monaco Grand Prix,2026-06-07,ANT,Andrea Kimi Antonelli,Mercedes,1.0,1.0,Finished,1.0,72.051,0,1
+2026,6,Monaco Grand Prix,2026-06-07,HAM,Lewis Hamilton,Ferrari,3.0,2.0,Finished,3.0,72.279,0,1
+2026,6,Monaco Grand Prix,2026-06-07,HAD,Isack Hadjar,Red Bull,5.0,3.0,Finished,5.0,72.434,0,1
+2026,6,Monaco Grand Prix,2026-06-07,PIA,Oscar Piastri,McLaren,7.0,4.0,Finished,7.0,72.624,0,0
+2026,6,Monaco Grand Prix,2026-06-07,LAW,Liam Lawson,RB F1 Team,10.0,5.0,Finished,10.0,73.412,0,0
+2026,6,Monaco Grand Prix,2026-06-07,LIN,Arvid Lindblad,RB F1 Team,15.0,6.0,Finished,15.0,74.248,0,0
+2026,6,Monaco Grand Prix,2026-06-07,GAS,Pierre Gasly,Alpine F1 Team,9.0,7.0,Finished,9.0,73.226,0,0
+2026,6,Monaco Grand Prix,2026-06-07,ALB,Alexander Albon,Williams,11.0,8.0,Finished,11.0,73.787,0,0
+2026,6,Monaco Grand Prix,2026-06-07,OCO,Esteban Ocon,Haas F1 Team,17.0,9.0,Finished,17.0,74.722,0,0
+2026,6,Monaco Grand Prix,2026-06-07,ALO,Fernando Alonso,Aston Martin,21.0,10.0,Finished,21.0,75.349,0,0
+2026,6,Monaco Grand Prix,2026-06-07,BOR,Gabriel Bortoleto,Audi,16.0,11.0,Finished,16.0,74.683,0,0
+2026,6,Monaco Grand Prix,2026-06-07,RUS,George Russell,Mercedes,6.0,12.0,Finished,6.0,72.445,0,0
+2026,6,Monaco Grand Prix,2026-06-07,HUL,Nico Hülkenberg,Audi,13.0,13.0,Finished,13.0,73.902,0,0
+2026,6,Monaco Grand Prix,2026-06-07,COL,Franco Colapinto,Alpine F1 Team,14.0,14.0,Finished,14.0,73.995,0,0
+2026,6,Monaco Grand Prix,2026-06-07,PER,Sergio Pérez,Cadillac F1 Team,18.0,15.0,Finished,18.0,74.747,0,0
+2026,6,Monaco Grand Prix,2026-06-07,SAI,Carlos Sainz,Williams,12.0,16.0,Retired,12.0,73.815,0,0
+2026,6,Monaco Grand Prix,2026-06-07,LEC,Charles Leclerc,Ferrari,4.0,17.0,Retired,4.0,72.351,0,0
+2026,6,Monaco Grand Prix,2026-06-07,STR,Lance Stroll,Aston Martin,22.0,18.0,Retired,22.0,76.061,0,0
+2026,6,Monaco Grand Prix,2026-06-07,NOR,Lando Norris,McLaren,8.0,19.0,Retired,8.0,72.765,0,0
+2026,6,Monaco Grand Prix,2026-06-07,BEA,Oliver Bearman,Haas F1 Team,19.0,20.0,Retired,19.0,74.814,0,0
+2026,6,Monaco Grand Prix,2026-06-07,BOT,Valtteri Bottas,Cadillac F1 Team,20.0,21.0,Retired,20.0,75.283,0,0
+2026,6,Monaco Grand Prix,2026-06-07,VER,Max Verstappen,Red Bull,2.0,22.0,Retired,2.0,72.094,0,0
+2026,7,Barcelona Grand Prix,2026-06-14,HAM,Lewis Hamilton,Ferrari,2.0,1.0,Finished,2.0,74.743,0,1
+2026,7,Barcelona Grand Prix,2026-06-14,RUS,George Russell,Mercedes,1.0,2.0,Finished,1.0,74.679,0,1
+2026,7,Barcelona Grand Prix,2026-06-14,NOR,Lando Norris,McLaren,4.0,3.0,Finished,4.0,75.001,0,1
+2026,7,Barcelona Grand Prix,2026-06-14,VER,Max Verstappen,Red Bull,5.0,4.0,Finished,5.0,75.021,0,0
+2026,7,Barcelona Grand Prix,2026-06-14,PIA,Oscar Piastri,McLaren,7.0,5.0,Finished,7.0,75.09,0,0
+2026,7,Barcelona Grand Prix,2026-06-14,HAD,Isack Hadjar,Red Bull,6.0,6.0,Lapped,6.0,75.077,0,0
+2026,7,Barcelona Grand Prix,2026-06-14,GAS,Pierre Gasly,Alpine F1 Team,14.0,7.0,Lapped,14.0,76.261,0,0
+2026,7,Barcelona Grand Prix,2026-06-14,LAW,Liam Lawson,RB F1 Team,8.0,8.0,Lapped,8.0,75.585,0,0
+2026,7,Barcelona Grand Prix,2026-06-14,LIN,Arvid Lindblad,RB F1 Team,11.0,9.0,Lapped,11.0,75.84,0,0
+2026,7,Barcelona Grand Prix,2026-06-14,COL,Franco Colapinto,Alpine F1 Team,13.0,10.0,Lapped,13.0,76.191,0,0
+2026,7,Barcelona Grand Prix,2026-06-14,BOR,Gabriel Bortoleto,Audi,12.0,11.0,Lapped,12.0,76.001,0,0
+2026,7,Barcelona Grand Prix,2026-06-14,SAI,Carlos Sainz,Williams,16.0,12.0,Lapped,16.0,76.881,0,0
+2026,7,Barcelona Grand Prix,2026-06-14,OCO,Esteban Ocon,Haas F1 Team,17.0,13.0,Lapped,17.0,77.073,0,0
+2026,7,Barcelona Grand Prix,2026-06-14,PER,Sergio Pérez,Cadillac F1 Team,19.0,14.0,Lapped,19.0,77.545,0,0
+2026,7,Barcelona Grand Prix,2026-06-14,LEC,Charles Leclerc,Ferrari,10.0,15.0,Retired,10.0,75.281,0,0
+2026,7,Barcelona Grand Prix,2026-06-14,ANT,Andrea Kimi Antonelli,Mercedes,3.0,16.0,Retired,3.0,74.998,0,0
+2026,7,Barcelona Grand Prix,2026-06-14,BEA,Oliver Bearman,Haas F1 Team,15.0,17.0,Retired,15.0,76.389,0,0
+2026,7,Barcelona Grand Prix,2026-06-14,ALB,Alexander Albon,Williams,18.0,18.0,Lapped,18.0,77.424,0,0
+2026,7,Barcelona Grand Prix,2026-06-14,ALO,Fernando Alonso,Aston Martin,22.0,19.0,Retired,22.0,78.815,0,0
+2026,7,Barcelona Grand Prix,2026-06-14,HUL,Nico Hülkenberg,Audi,9.0,20.0,Retired,9.0,75.768,0,0
+2026,7,Barcelona Grand Prix,2026-06-14,BOT,Valtteri Bottas,Cadillac F1 Team,20.0,21.0,Retired,20.0,77.757,0,0
+2026,7,Barcelona Grand Prix,2026-06-14,STR,Lance Stroll,Aston Martin,21.0,22.0,Retired,21.0,78.758,0,0
+2026,8,Austrian Grand Prix,2026-06-28,RUS,George Russell,Mercedes,1.0,1.0,Finished,1.0,66.113,0,1
+2026,8,Austrian Grand Prix,2026-06-28,VER,Max Verstappen,Red Bull,5.0,2.0,Finished,5.0,66.475,0,1
+2026,8,Austrian Grand Prix,2026-06-28,ANT,Andrea Kimi Antonelli,Mercedes,4.0,3.0,Finished,4.0,66.414,0,1
+2026,8,Austrian Grand Prix,2026-06-28,PIA,Oscar Piastri,McLaren,7.0,4.0,Finished,7.0,66.511,0,0
+2026,8,Austrian Grand Prix,2026-06-28,HAM,Lewis Hamilton,Ferrari,3.0,5.0,Finished,3.0,66.408,0,0
+2026,8,Austrian Grand Prix,2026-06-28,HAD,Isack Hadjar,Red Bull,8.0,6.0,Finished,8.0,66.632,0,0
+2026,8,Austrian Grand Prix,2026-06-28,NOR,Lando Norris,McLaren,6.0,7.0,Finished,6.0,66.502,0,0
+2026,8,Austrian Grand Prix,2026-06-28,LEC,Charles Leclerc,Ferrari,2.0,8.0,Finished,2.0,66.349,0,0
+2026,8,Austrian Grand Prix,2026-06-28,LAW,Liam Lawson,RB F1 Team,9.0,9.0,Lapped,9.0,66.955,0,0
+2026,8,Austrian Grand Prix,2026-06-28,LIN,Arvid Lindblad,RB F1 Team,10.0,10.0,Lapped,10.0,67.007,0,0
+2026,8,Austrian Grand Prix,2026-06-28,BOR,Gabriel Bortoleto,Audi,12.0,11.0,Lapped,12.0,67.293,0,0
+2026,8,Austrian Grand Prix,2026-06-28,HUL,Nico Hülkenberg,Audi,14.0,12.0,Lapped,14.0,67.611,0,0
+2026,8,Austrian Grand Prix,2026-06-28,GAS,Pierre Gasly,Alpine F1 Team,11.0,13.0,Lapped,11.0,67.223,0,0
+2026,8,Austrian Grand Prix,2026-06-28,BEA,Oliver Bearman,Haas F1 Team,13.0,14.0,Lapped,13.0,67.523,0,0
+2026,8,Austrian Grand Prix,2026-06-28,COL,Franco Colapinto,Alpine F1 Team,16.0,15.0,Lapped,16.0,67.894,0,0
+2026,8,Austrian Grand Prix,2026-06-28,OCO,Esteban Ocon,Haas F1 Team,15.0,16.0,Lapped,15.0,67.817,0,0
+2026,8,Austrian Grand Prix,2026-06-28,ALB,Alexander Albon,Williams,18.0,17.0,Lapped,18.0,68.509,0,0
+2026,8,Austrian Grand Prix,2026-06-28,ALO,Fernando Alonso,Aston Martin,21.0,18.0,Lapped,21.0,69.942,0,0
+2026,8,Austrian Grand Prix,2026-06-28,STR,Lance Stroll,Aston Martin,22.0,19.0,Retired,22.0,70.363,0,0
+2026,8,Austrian Grand Prix,2026-06-28,SAI,Carlos Sainz,Williams,17.0,20.0,Retired,17.0,68.252,0,0
+2026,8,Austrian Grand Prix,2026-06-28,PER,Sergio Pérez,Cadillac F1 Team,19.0,21.0,Retired,19.0,68.945,0,0
+2026,8,Austrian Grand Prix,2026-06-28,BOT,Valtteri Bottas,Cadillac F1 Team,20.0,22.0,Retired,20.0,69.03,0,0
+2026,9,British Grand Prix,2026-07-05,LEC,Charles Leclerc,Ferrari,2.0,1.0,Finished,2.0,88.286,0,1
+2026,9,British Grand Prix,2026-07-05,RUS,George Russell,Mercedes,4.0,2.0,Finished,4.0,88.481,0,1
+2026,9,British Grand Prix,2026-07-05,HAM,Lewis Hamilton,Ferrari,3.0,3.0,Finished,3.0,88.458,0,1
+2026,9,British Grand Prix,2026-07-05,NOR,Lando Norris,McLaren,6.0,4.0,Finished,6.0,88.877,0,0
+2026,9,British Grand Prix,2026-07-05,HAD,Isack Hadjar,Red Bull,5.0,5.0,Finished,5.0,88.746,0,0
+2026,9,British Grand Prix,2026-07-05,LAW,Liam Lawson,RB F1 Team,10.0,6.0,Finished,10.0,89.3,0,0
+2026,9,British Grand Prix,2026-07-05,LIN,Arvid Lindblad,RB F1 Team,9.0,7.0,Finished,9.0,89.305,0,0
+2026,9,British Grand Prix,2026-07-05,BOR,Gabriel Bortoleto,Audi,11.0,8.0,Finished,11.0,89.461,0,0
+2026,9,British Grand Prix,2026-07-05,COL,Franco Colapinto,Alpine F1 Team,19.0,9.0,Finished,19.0,91.321,0,0
+2026,9,British Grand Prix,2026-07-05,GAS,Pierre Gasly,Alpine F1 Team,15.0,10.0,Finished,12.0,90.063,0,0
+2026,9,British Grand Prix,2026-07-05,PIA,Oscar Piastri,McLaren,8.0,11.0,Finished,8.0,89.032,0,0
+2026,9,British Grand Prix,2026-07-05,BEA,Oliver Bearman,Haas F1 Team,13.0,12.0,Finished,14.0,90.501,0,0
+2026,9,British Grand Prix,2026-07-05,OCO,Esteban Ocon,Haas F1 Team,17.0,13.0,Finished,17.0,90.68,0,0
+2026,9,British Grand Prix,2026-07-05,PER,Sergio Pérez,Cadillac F1 Team,20.0,14.0,Finished,20.0,91.451,0,0
+2026,9,British Grand Prix,2026-07-05,ANT,Andrea Kimi Antonelli,Mercedes,1.0,15.0,Finished,1.0,88.111,0,0
+2026,9,British Grand Prix,2026-07-05,BOT,Valtteri Bottas,Cadillac F1 Team,18.0,16.0,Finished,18.0,91.227,0,0
+2026,9,British Grand Prix,2026-07-05,SAI,Carlos Sainz,Williams,14.0,17.0,Lapped,15.0,90.562,0,0
+2026,9,British Grand Prix,2026-07-05,ALO,Fernando Alonso,Aston Martin,21.0,18.0,Lapped,22.0,93.025,0,0
+2026,9,British Grand Prix,2026-07-05,STR,Lance Stroll,Aston Martin,22.0,19.0,Lapped,21.0,92.863,0,0
+2026,9,British Grand Prix,2026-07-05,VER,Max Verstappen,Red Bull,7.0,20.0,Retired,7.0,88.893,0,0
+2026,9,British Grand Prix,2026-07-05,ALB,Alexander Albon,Williams,16.0,21.0,Retired,16.0,90.638,0,0
+2026,9,British Grand Prix,2026-07-05,HUL,Nico Hülkenberg,Audi,12.0,22.0,Retired,13.0,89.539,0,0
+2026,10,Belgian Grand Prix,2026-07-19,ANT,Andrea Kimi Antonelli,Mercedes,1.0,1.0,Finished,1.0,104.361,0,1
+2026,10,Belgian Grand Prix,2026-07-19,LEC,Charles Leclerc,Ferrari,4.0,2.0,Finished,5.0,104.893,0,1
+2026,10,Belgian Grand Prix,2026-07-19,VER,Max Verstappen,Red Bull,2.0,3.0,Finished,2.0,104.678,0,1
+2026,10,Belgian Grand Prix,2026-07-19,HAM,Lewis Hamilton,Ferrari,5.0,4.0,Finished,6.0,104.895,0,0
+2026,10,Belgian Grand Prix,2026-07-19,PIA,Oscar Piastri,McLaren,6.0,5.0,Finished,7.0,105.016,0,0
+2026,10,Belgian Grand Prix,2026-07-19,HAD,Isack Hadjar,Red Bull,21.0,6.0,Finished,10.0,105.823,0,0
+2026,10,Belgian Grand Prix,2026-07-19,NOR,Lando Norris,McLaren,13.0,7.0,Finished,3.0,104.801,0,0
+2026,10,Belgian Grand Prix,2026-07-19,BOR,Gabriel Bortoleto,Audi,8.0,8.0,Finished,9.0,105.628,0,0
+2026,10,Belgian Grand Prix,2026-07-19,LIN,Arvid Lindblad,RB F1 Team,7.0,9.0,Finished,8.0,105.143,0,0
+2026,10,Belgian Grand Prix,2026-07-19,COL,Franco Colapinto,Alpine F1 Team,11.0,10.0,Finished,13.0,106.392,0,0
+2026,10,Belgian Grand Prix,2026-07-19,GAS,Pierre Gasly,Alpine F1 Team,10.0,11.0,Finished,12.0,106.331,0,0
+2026,10,Belgian Grand Prix,2026-07-19,LAW,Liam Lawson,RB F1 Team,9.0,12.0,Finished,11.0,106.12,0,0
+2026,10,Belgian Grand Prix,2026-07-19,HUL,Nico Hülkenberg,Audi,12.0,13.0,Finished,14.0,106.671,0,0
+2026,10,Belgian Grand Prix,2026-07-19,BEA,Oliver Bearman,Haas F1 Team,14.0,14.0,Finished,16.0,106.779,0,0
+2026,10,Belgian Grand Prix,2026-07-19,ALB,Alexander Albon,Williams,15.0,15.0,Finished,17.0,107.12,0,0
+2026,10,Belgian Grand Prix,2026-07-19,SAI,Carlos Sainz,Williams,19.0,16.0,Finished,15.0,106.777,0,0
+2026,10,Belgian Grand Prix,2026-07-19,OCO,Esteban Ocon,Haas F1 Team,16.0,17.0,Finished,18.0,107.801,0,0
+2026,10,Belgian Grand Prix,2026-07-19,BOT,Valtteri Bottas,Cadillac F1 Team,17.0,18.0,Lapped,19.0,107.823,0,0
+2026,10,Belgian Grand Prix,2026-07-19,ALO,Fernando Alonso,Aston Martin,22.0,19.0,Lapped,21.0,110.002,0,0
+2026,10,Belgian Grand Prix,2026-07-19,STR,Lance Stroll,Aston Martin,20.0,20.0,Retired,22.0,110.177,0,0
+2026,10,Belgian Grand Prix,2026-07-19,PER,Sergio Pérez,Cadillac F1 Team,18.0,21.0,Retired,20.0,107.971,0,0
+2026,10,Belgian Grand Prix,2026-07-19,RUS,George Russell,Mercedes,3.0,22.0,Retired,4.0,104.869,0,0
+2026,11,Hungarian Grand Prix,2026-07-26,NOR,Lando Norris,McLaren,1.0,1.0,Finished,1.0,77.207,0,1
+2026,11,Hungarian Grand Prix,2026-07-26,VER,Max Verstappen,Red Bull,4.0,2.0,Finished,6.0,77.725,0,1
+2026,11,Hungarian Grand Prix,2026-07-26,ANT,Andrea Kimi Antonelli,Mercedes,7.0,3.0,Finished,4.0,77.479,0,1
+2026,11,Hungarian Grand Prix,2026-07-26,LEC,Charles Leclerc,Ferrari,2.0,4.0,Finished,3.0,77.445,0,0
+2026,11,Hungarian Grand Prix,2026-07-26,HAM,Lewis Hamilton,Ferrari,5.0,5.0,Finished,2.0,77.219,0,0
+2026,11,Hungarian Grand Prix,2026-07-26,HAD,Isack Hadjar,Red Bull,8.0,6.0,Finished,8.0,77.856,0,0
+2026,11,Hungarian Grand Prix,2026-07-26,RUS,George Russell,Mercedes,6.0,7.0,Finished,7.0,77.76,0,0
+2026,11,Hungarian Grand Prix,2026-07-26,LAW,Liam Lawson,RB F1 Team,11.0,8.0,Lapped,11.0,78.765,0,0
+2026,11,Hungarian Grand Prix,2026-07-26,HUL,Nico Hülkenberg,Audi,10.0,9.0,Lapped,10.0,78.639,0,0
+2026,11,Hungarian Grand Prix,2026-07-26,LIN,Arvid Lindblad,RB F1 Team,9.0,10.0,Lapped,9.0,78.281,0,0
+2026,11,Hungarian Grand Prix,2026-07-26,BOR,Gabriel Bortoleto,Audi,14.0,11.0,Lapped,14.0,79.069,0,0
+2026,11,Hungarian Grand Prix,2026-07-26,GAS,Pierre Gasly,Alpine F1 Team,12.0,12.0,Lapped,12.0,78.844,0,0
+2026,11,Hungarian Grand Prix,2026-07-26,STR,Lance Stroll,Aston Martin,20.0,13.0,Lapped,20.0,80.659,0,0
+2026,11,Hungarian Grand Prix,2026-07-26,ALO,Fernando Alonso,Aston Martin,16.0,14.0,Lapped,16.0,79.808,0,0
+2026,11,Hungarian Grand Prix,2026-07-26,COL,Franco Colapinto,Alpine F1 Team,13.0,15.0,Lapped,13.0,79.027,0,0
+2026,11,Hungarian Grand Prix,2026-07-26,OCO,Esteban Ocon,Haas F1 Team,15.0,16.0,Lapped,15.0,79.734,0,0
+2026,11,Hungarian Grand Prix,2026-07-26,ALB,Alexander Albon,Williams,19.0,17.0,Lapped,19.0,80.658,0,0
+2026,11,Hungarian Grand Prix,2026-07-26,SAI,Carlos Sainz,Williams,18.0,18.0,Lapped,18.0,80.621,0,0
+2026,11,Hungarian Grand Prix,2026-07-26,BEA,Oliver Bearman,Haas F1 Team,17.0,19.0,Lapped,17.0,80.233,0,0
+2026,11,Hungarian Grand Prix,2026-07-26,PIA,Oscar Piastri,McLaren,3.0,20.0,Retired,5.0,77.684,0,0
+2026,11,Hungarian Grand Prix,2026-07-26,PER,Sergio Pérez,Cadillac F1 Team,22.0,21.0,Retired,22.0,81.322,0,0
+2026,11,Hungarian Grand Prix,2026-07-26,BOT,Valtteri Bottas,Cadillac F1 Team,21.0,22.0,Retired,21.0,80.886,0,0
+2026,12,Dutch Grand Prix,2026-08-23,NOR,Lando Norris,McLaren,1.0,1.0,Finished,1.0,71.163,0,1
+2026,12,Dutch Grand Prix,2026-08-23,ANT,Andrea Kimi Antonelli,Mercedes,3.0,2.0,Finished,3.0,71.296,0,1
+2026,12,Dutch Grand Prix,2026-08-23,RUS,George Russell,Mercedes,2.0,3.0,Finished,2.0,71.265,0,1
+2026,12,Dutch Grand Prix,2026-08-23,HAM,Lewis Hamilton,Ferrari,5.0,4.0,Finished,5.0,71.494,0,0
+2026,12,Dutch Grand Prix,2026-08-23,LEC,Charles Leclerc,Ferrari,6.0,5.0,Finished,6.0,71.558,0,0
+2026,12,Dutch Grand Prix,2026-08-23,PIA,Oscar Piastri,McLaren,4.0,6.0,Finished,4.0,71.305,0,0
+2026,12,Dutch Grand Prix,2026-08-23,LAW,Liam Lawson,Red Bull,8.0,7.0,Finished,8.0,71.733,0,0
+2026,12,Dutch Grand Prix,2026-08-23,HUL,Nico Hülkenberg,Audi,13.0,8.0,Lapped,13.0,72.797,0,0
+2026,12,Dutch Grand Prix,2026-08-23,ALO,Fernando Alonso,Aston Martin,18.0,9.0,Lapped,18.0,73.65,0,0
+2026,12,Dutch Grand Prix,2026-08-23,GAS,Pierre Gasly,Alpine F1 Team,11.0,10.0,Lapped,11.0,72.616,0,0
+2026,12,Dutch Grand Prix,2026-08-23,TSU,Yuki Tsunoda,RB F1 Team,12.0,11.0,Lapped,12.0,72.627,0,0
+2026,12,Dutch Grand Prix,2026-08-23,LIN,Arvid Lindblad,RB F1 Team,10.0,12.0,Lapped,10.0,72.185,0,0
+2026,12,Dutch Grand Prix,2026-08-23,BOR,Gabriel Bortoleto,Audi,9.0,13.0,Lapped,9.0,72.079,0,0
+2026,12,Dutch Grand Prix,2026-08-23,COL,Franco Colapinto,Alpine F1 Team,14.0,14.0,Lapped,14.0,72.8,0,0
+2026,12,Dutch Grand Prix,2026-08-23,PER,Sergio Pérez,Cadillac F1 Team,22.0,15.0,Lapped,22.0,74.6,0,0
+2026,12,Dutch Grand Prix,2026-08-23,SAI,Carlos Sainz,Williams,17.0,16.0,Lapped,17.0,73.574,0,0
+2026,12,Dutch Grand Prix,2026-08-23,ALB,Alexander Albon,Williams,16.0,17.0,Retired,16.0,73.182,0,0
+2026,12,Dutch Grand Prix,2026-08-23,BOT,Valtteri Bottas,Cadillac F1 Team,21.0,18.0,Retired,21.0,74.371,0,0
+2026,12,Dutch Grand Prix,2026-08-23,OCO,Esteban Ocon,Haas F1 Team,15.0,19.0,Retired,15.0,73.137,0,0
+2026,12,Dutch Grand Prix,2026-08-23,STR,Lance Stroll,Aston Martin,19.0,20.0,Retired,19.0,73.818,0,0
+2026,12,Dutch Grand Prix,2026-08-23,BEA,Oliver Bearman,Haas F1 Team,20.0,21.0,Retired,20.0,73.826,0,0
+2026,12,Dutch Grand Prix,2026-08-23,VER,Max Verstappen,Red Bull,7.0,22.0,Retired,7.0,71.618,0,0
+2026,13,Italian Grand Prix,2026-09-06,ANT,Andrea Kimi Antonelli,Mercedes,19.0,1.0,Finished,7.0,81.882,0,1
+2026,13,Italian Grand Prix,2026-09-06,RUS,George Russell,Mercedes,2.0,2.0,Finished,2.0,81.846,0,1
+2026,13,Italian Grand Prix,2026-09-06,VER,Max Verstappen,Red Bull,5.0,3.0,Finished,6.0,82.07,0,1
+2026,13,Italian Grand Prix,2026-09-06,NOR,Lando Norris,McLaren,8.0,4.0,Finished,9.0,82.067,0,0
+2026,13,Italian Grand Prix,2026-09-06,PIA,Oscar Piastri,McLaren,6.0,5.0,Finished,3.0,81.966,0,0
+2026,13,Italian Grand Prix,2026-09-06,HAM,Lewis Hamilton,Ferrari,4.0,6.0,Finished,5.0,82.011,0,0
+2026,13,Italian Grand Prix,2026-09-06,GAS,Pierre Gasly,Alpine F1 Team,1.0,7.0,Finished,1.0,81.786,0,0
+2026,13,Italian Grand Prix,2026-09-06,LIN,Arvid Lindblad,RB F1 Team,9.0,8.0,Finished,10.0,82.286,0,0
+2026,13,Italian Grand Prix,2026-09-06,COL,Franco Colapinto,Alpine F1 Team,7.0,9.0,Finished,8.0,82.22,0,0
+2026,13,Italian Grand Prix,2026-09-06,TSU,Yuki Tsunoda,RB F1 Team,15.0,10.0,Finished,17.0,83.755,0,0
+2026,13,Italian Grand Prix,2026-09-06,BOR,Gabriel Bortoleto,Audi,10.0,11.0,Finished,11.0,82.517,0,0
+2026,13,Italian Grand Prix,2026-09-06,HUL,Nico Hülkenberg,Audi,12.0,12.0,Finished,13.0,82.779,0,0
+2026,13,Italian Grand Prix,2026-09-06,SAI,Carlos Sainz,Williams,13.0,13.0,Finished,15.0,83.453,0,0
+2026,13,Italian Grand Prix,2026-09-06,LAW,Liam Lawson,Red Bull,22.0,14.0,Finished,14.0,82.821,0,0
+2026,13,Italian Grand Prix,2026-09-06,BEA,Oliver Bearman,Haas F1 Team,11.0,15.0,Finished,12.0,82.756,0,0
+2026,13,Italian Grand Prix,2026-09-06,OCO,Esteban Ocon,Haas F1 Team,14.0,16.0,Lapped,16.0,83.454,0,0
+2026,13,Italian Grand Prix,2026-09-06,ALB,Alexander Albon,Williams,20.0,17.0,Lapped,18.0,84.356,0,0
+2026,13,Italian Grand Prix,2026-09-06,PER,Sergio Pérez,Cadillac F1 Team,17.0,18.0,Lapped,20.0,84.595,0,0
+2026,13,Italian Grand Prix,2026-09-06,BOT,Valtteri Bottas,Cadillac F1 Team,16.0,19.0,Lapped,19.0,84.364,0,0
+2026,13,Italian Grand Prix,2026-09-06,STR,Lance Stroll,Aston Martin,18.0,20.0,Retired,22.0,85.222,0,0
+2026,13,Italian Grand Prix,2026-09-06,ALO,Fernando Alonso,Aston Martin,21.0,21.0,Retired,21.0,85.15,0,0
+2026,13,Italian Grand Prix,2026-09-06,LEC,Charles Leclerc,Ferrari,3.0,22.0,Retired,4.0,82.004,0,0
+2026,14,Spanish Grand Prix,2026-09-13,ANT,Andrea Kimi Antonelli,Mercedes,2.0,1.0,Finished,2.0,91.835,0,1
+2026,14,Spanish Grand Prix,2026-09-13,VER,Max Verstappen,Red Bull,3.0,2.0,Finished,3.0,91.964,0,1
+2026,14,Spanish Grand Prix,2026-09-13,NOR,Lando Norris,McLaren,1.0,3.0,Finished,1.0,91.824,0,1
+2026,14,Spanish Grand Prix,2026-09-13,LEC,Charles Leclerc,Ferrari,5.0,4.0,Finished,5.0,92.019,0,0
+2026,14,Spanish Grand Prix,2026-09-13,RUS,George Russell,Mercedes,6.0,5.0,Finished,6.0,92.149,0,0
+2026,14,Spanish Grand Prix,2026-09-13,LAW,Liam Lawson,Red Bull,8.0,6.0,Finished,8.0,92.316,0,0
+2026,14,Spanish Grand Prix,2026-09-13,COL,Franco Colapinto,Alpine F1 Team,9.0,7.0,Finished,9.0,92.903,0,0
+2026,14,Spanish Grand Prix,2026-09-13,PIA,Oscar Piastri,McLaren,7.0,8.0,Finished,7.0,92.294,0,0
+2026,14,Spanish Grand Prix,2026-09-13,LIN,Arvid Lindblad,RB F1 Team,10.0,9.0,Lapped,10.0,93.041,0,0
+2026,14,Spanish Grand Prix,2026-09-13,HUL,Nico Hülkenberg,Audi,11.0,10.0,Lapped,11.0,93.223,0,0
+2026,14,Spanish Grand Prix,2026-09-13,OCO,Esteban Ocon,Haas F1 Team,13.0,11.0,Lapped,13.0,93.667,0,0
+2026,14,Spanish Grand Prix,2026-09-13,GAS,Pierre Gasly,Alpine F1 Team,14.0,12.0,Lapped,14.0,93.753,0,0
+2026,14,Spanish Grand Prix,2026-09-13,BOR,Gabriel Bortoleto,Audi,12.0,13.0,Lapped,12.0,93.388,0,0
+2026,14,Spanish Grand Prix,2026-09-13,TSU,Yuki Tsunoda,RB F1 Team,15.0,14.0,Lapped,15.0,94.084,0,0
+2026,14,Spanish Grand Prix,2026-09-13,ALB,Alexander Albon,Williams,16.0,15.0,Lapped,16.0,95.307,0,0
+2026,14,Spanish Grand Prix,2026-09-13,BEA,Oliver Bearman,Haas F1 Team,22.0,16.0,Lapped,,,0,0
+2026,14,Spanish Grand Prix,2026-09-13,ALO,Fernando Alonso,Aston Martin,17.0,17.0,Lapped,18.0,95.388,0,0
+2026,14,Spanish Grand Prix,2026-09-13,BOT,Valtteri Bottas,Cadillac F1 Team,19.0,18.0,Lapped,20.0,98.011,0,0
+2026,14,Spanish Grand Prix,2026-09-13,SAI,Carlos Sainz,Williams,20.0,19.0,Retired,17.0,95.312,0,0
+2026,14,Spanish Grand Prix,2026-09-13,PER,Sergio Pérez,Cadillac F1 Team,18.0,20.0,Retired,19.0,95.913,0,0
+2026,14,Spanish Grand Prix,2026-09-13,STR,Lance Stroll,Aston Martin,21.0,21.0,Retired,,,0,0
+2026,14,Spanish Grand Prix,2026-09-13,HAM,Lewis Hamilton,Ferrari,4.0,22.0,Retired,4.0,92.013,0,0
+2026,15,Azerbaijan Grand Prix,2026-09-26,RUS,George Russell,Mercedes,1.0,1.0,Finished,1.0,102.526,0,1
+2026,15,Azerbaijan Grand Prix,2026-09-26,VER,Max Verstappen,Red Bull,8.0,2.0,Finished,8.0,103.706,0,1
+2026,15,Azerbaijan Grand Prix,2026-09-26,HAD,Isack Hadjar,Red Bull,4.0,3.0,Finished,4.0,103.5,0,1
+2026,15,Azerbaijan Grand Prix,2026-09-26,LEC,Charles Leclerc,Ferrari,2.0,4.0,Finished,2.0,103.363,0,0
+2026,15,Azerbaijan Grand Prix,2026-09-26,ANT,Andrea Kimi Antonelli,Mercedes,16.0,5.0,Finished,16.0,105.504,0,0
+2026,15,Azerbaijan Grand Prix,2026-09-26,HAM,Lewis Hamilton,Ferrari,6.0,6.0,Finished,6.0,103.858,0,0
+2026,15,Azerbaijan Grand Prix,2026-09-26,LIN,Arvid Lindblad,RB F1 Team,15.0,7.0,Finished,15.0,105.106,0,0
+2026,15,Azerbaijan Grand Prix,2026-09-26,OCO,Esteban Ocon,Haas F1 Team,13.0,8.0,Finished,14.0,105.016,0,0
+2026,15,Azerbaijan Grand Prix,2026-09-26,BEA,Oliver Bearman,Haas F1 Team,10.0,9.0,Finished,11.0,104.775,0,0
+2026,15,Azerbaijan Grand Prix,2026-09-26,SAI,Carlos Sainz,Williams,14.0,10.0,Finished,9.0,104.566,0,0
+2026,15,Azerbaijan Grand Prix,2026-09-26,HUL,Nico Hülkenberg,Audi,18.0,11.0,Finished,18.0,105.92,0,0
+2026,15,Azerbaijan Grand Prix,2026-09-26,LAW,Liam Lawson,RB F1 Team,11.0,12.0,Finished,12.0,104.86,0,0
+2026,15,Azerbaijan Grand Prix,2026-09-26,PIA,Oscar Piastri,McLaren,3.0,13.0,Finished,3.0,103.364,0,0
+2026,15,Azerbaijan Grand Prix,2026-09-26,PER,Sergio Pérez,Cadillac F1 Team,20.0,14.0,Finished,20.0,106.658,0,0
+2026,15,Azerbaijan Grand Prix,2026-09-26,BOR,Gabriel Bortoleto,Audi,17.0,15.0,Finished,17.0,105.799,0,0
+2026,15,Azerbaijan Grand Prix,2026-09-26,BOT,Valtteri Bottas,Cadillac F1 Team,19.0,16.0,Retired,22.0,108.29,0,0
+2026,15,Azerbaijan Grand Prix,2026-09-26,COL,Franco Colapinto,Alpine F1 Team,9.0,17.0,Retired,10.0,104.683,0,0
+2026,15,Azerbaijan Grand Prix,2026-09-26,GAS,Pierre Gasly,Alpine F1 Team,7.0,18.0,Retired,7.0,104.047,0,0
+2026,15,Azerbaijan Grand Prix,2026-09-26,NOR,Lando Norris,McLaren,5.0,19.0,Retired,5.0,103.672,0,0
+2026,15,Azerbaijan Grand Prix,2026-09-26,ALB,Alexander Albon,Williams,12.0,20.0,Retired,13.0,105.001,0,0
+2026,15,Azerbaijan Grand Prix,2026-09-26,ALO,Fernando Alonso,Aston Martin,21.0,21.0,Retired,19.0,106.593,0,0
+2026,15,Azerbaijan Grand Prix,2026-09-26,STR,Lance Stroll,Aston Martin,22.0,22.0,Retired,21.0,107.337,0,0
+2026,16,Bahrain Grand Prix,2026-10-04,VER,Max Verstappen,Red Bull,1.0,1.0,Finished,1.0,95.13,0,1
+2026,16,Bahrain Grand Prix,2026-10-04,ANT,Andrea Kimi Antonelli,Mercedes,3.0,2.0,Finished,4.0,95.631,0,1
+2026,16,Bahrain Grand Prix,2026-10-04,HAM,Lewis Hamilton,Ferrari,2.0,3.0,Finished,2.0,95.428,0,1
+2026,16,Bahrain Grand Prix,2026-10-04,LEC,Charles Leclerc,Ferrari,4.0,4.0,Finished,5.0,95.666,0,0
+2026,16,Bahrain Grand Prix,2026-10-04,HAD,Isack Hadjar,Red Bull,8.0,5.0,Finished,3.0,95.558,0,0
+2026,16,Bahrain Grand Prix,2026-10-04,PIA,Oscar Piastri,McLaren,6.0,6.0,Finished,7.0,95.762,0,0
+2026,16,Bahrain Grand Prix,2026-10-04,LAW,Liam Lawson,RB F1 Team,11.0,7.0,Finished,11.0,97.023,0,0
+2026,16,Bahrain Grand Prix,2026-10-04,ALO,Fernando Alonso,Aston Martin,12.0,8.0,Finished,12.0,97.22,0,0
+2026,16,Bahrain Grand Prix,2026-10-04,NOR,Lando Norris,McLaren,5.0,9.0,Finished,6.0,95.757,0,0
+2026,16,Bahrain Grand Prix,2026-10-04,LIN,Arvid Lindblad,RB F1 Team,22.0,10.0,Finished,16.0,97.883,0,0
+2026,16,Bahrain Grand Prix,2026-10-04,HUL,Nico Hülkenberg,Audi,15.0,11.0,Finished,17.0,97.97,0,0
+2026,16,Bahrain Grand Prix,2026-10-04,STR,Lance Stroll,Aston Martin,14.0,12.0,Finished,14.0,97.566,0,0
+2026,16,Bahrain Grand Prix,2026-10-04,COL,Franco Colapinto,Alpine F1 Team,21.0,13.0,Finished,15.0,97.179,0,0
+2026,16,Bahrain Grand Prix,2026-10-04,BEA,Oliver Bearman,Haas F1 Team,16.0,14.0,Finished,18.0,97.98,0,0
+2026,16,Bahrain Grand Prix,2026-10-04,OCO,Esteban Ocon,Haas F1 Team,17.0,15.0,Finished,19.0,98.233,0,0
+2026,16,Bahrain Grand Prix,2026-10-04,GAS,Pierre Gasly,Alpine F1 Team,9.0,16.0,Finished,9.0,96.41,0,0
+2026,16,Bahrain Grand Prix,2026-10-04,SAI,Carlos Sainz,Williams,13.0,17.0,Finished,13.0,97.527,0,0
+2026,16,Bahrain Grand Prix,2026-10-04,BOR,Gabriel Bortoleto,Audi,10.0,18.0,Finished,10.0,96.814,0,0
+2026,16,Bahrain Grand Prix,2026-10-04,PER,Sergio Pérez,Cadillac F1 Team,20.0,19.0,Finished,22.0,98.933,0,0
+2026,16,Bahrain Grand Prix,2026-10-04,RUS,George Russell,Mercedes,7.0,20.0,Retired,8.0,95.871,0,0
+2026,16,Bahrain Grand Prix,2026-10-04,ALB,Alexander Albon,Williams,18.0,21.0,Retired,20.0,98.6,0,0
+2026,16,Bahrain Grand Prix,2026-10-04,BOT,Valtteri Bottas,Cadillac F1 Team,19.0,22.0,Retired,21.0,98.611,0,0
+2026,17,Singapore Grand Prix,2026-10-11,VER,Max Verstappen,Red Bull,1.0,1.0,Finished,1.0,91.373,0,1
+2026,17,Singapore Grand Prix,2026-10-11,LEC,Charles Leclerc,Ferrari,2.0,2.0,Finished,2.0,91.427,0,1
+2026,17,Singapore Grand Prix,2026-10-11,ANT,Andrea Kimi Antonelli,Mercedes,4.0,3.0,Finished,4.0,91.562,0,1
+2026,17,Singapore Grand Prix,2026-10-11,NOR,Lando Norris,McLaren,5.0,4.0,Finished,5.0,91.712,0,0
+2026,17,Singapore Grand Prix,2026-10-11,PIA,Oscar Piastri,McLaren,6.0,5.0,Finished,7.0,91.86,0,0
+2026,17,Singapore Grand Prix,2026-10-11,HAM,Lewis Hamilton,Ferrari,3.0,6.0,Finished,3.0,91.496,0,0
+2026,17,Singapore Grand Prix,2026-10-11,LAW,Liam Lawson,RB F1 Team,8.0,7.0,Finished,9.0,92.319,0,0
+2026,17,Singapore Grand Prix,2026-10-11,HUL,Nico Hülkenberg,Audi,10.0,8.0,Finished,11.0,92.784,0,0
+2026,17,Singapore Grand Prix,2026-10-11,RUS,George Russell,Mercedes,19.0,9.0,Finished,6.0,91.747,0,0
+2026,17,Singapore Grand Prix,2026-10-11,HAD,Isack Hadjar,Red Bull,22.0,10.0,Finished,22.0,,0,0
+2026,17,Singapore Grand Prix,2026-10-11,GAS,Pierre Gasly,Alpine F1 Team,7.0,11.0,Lapped,8.0,92.225,0,0
+2026,17,Singapore Grand Prix,2026-10-11,BEA,Oliver Bearman,Haas F1 Team,11.0,12.0,Lapped,12.0,92.908,0,0
+2026,17,Singapore Grand Prix,2026-10-11,OCO,Esteban Ocon,Haas F1 Team,12.0,13.0,Lapped,13.0,93.323,0,0
+2026,17,Singapore Grand Prix,2026-10-11,SAI,Carlos Sainz,Williams,13.0,14.0,Lapped,14.0,93.526,0,0
+2026,17,Singapore Grand Prix,2026-10-11,LIN,Arvid Lindblad,RB F1 Team,9.0,15.0,Lapped,10.0,92.498,0,0
+2026,17,Singapore Grand Prix,2026-10-11,ALO,Fernando Alonso,Aston Martin,20.0,16.0,Lapped,17.0,94.223,0,0
+2026,17,Singapore Grand Prix,2026-10-11,PER,Sergio Pérez,Cadillac F1 Team,17.0,17.0,Lapped,20.0,95.123,0,0
+2026,17,Singapore Grand Prix,2026-10-11,ALB,Alexander Albon,Williams,16.0,18.0,Retired,18.0,94.289,0,0
+2026,17,Singapore Grand Prix,2026-10-11,BOT,Valtteri Bottas,Cadillac F1 Team,18.0,19.0,Lapped,21.0,95.984,0,0
+2026,17,Singapore Grand Prix,2026-10-11,STR,Lance Stroll,Aston Martin,21.0,20.0,Retired,19.0,94.946,0,0
+2026,17,Singapore Grand Prix,2026-10-11,COL,Franco Colapinto,Alpine F1 Team,15.0,21.0,Retired,16.0,93.261,0,0
+2026,17,Singapore Grand Prix,2026-10-11,BOR,Gabriel Bortoleto,Audi,14.0,22.0,Retired,15.0,93.658,0,0
+2026,18,United States Grand Prix,2026-10-25,ANT,Andrea Kimi Antonelli,Mercedes,1.0,1.0,Finished,1.0,94.035,0,1
+2026,18,United States Grand Prix,2026-10-25,LEC,Charles Leclerc,Ferrari,4.0,2.0,Finished,4.0,94.198,0,1
+2026,18,United States Grand Prix,2026-10-25,VER,Max Verstappen,Red Bull,2.0,3.0,Finished,2.0,94.214,0,1
+2026,18,United States Grand Prix,2026-10-25,HAM,Lewis Hamilton,Ferrari,5.0,4.0,Finished,5.0,94.311,0,0
+2026,18,United States Grand Prix,2026-10-25,NOR,Lando Norris,McLaren,8.0,5.0,Finished,8.0,94.539,0,0
+2026,18,United States Grand Prix,2026-10-25,HAD,Isack Hadjar,Red Bull,3.0,6.0,Finished,3.0,94.25,0,0
+2026,18,United States Grand Prix,2026-10-25,PIA,Oscar Piastri,McLaren,7.0,7.0,Finished,7.0,94.803,0,0
+2026,18,United States Grand Prix,2026-10-25,RUS,George Russell,Mercedes,6.0,8.0,Finished,6.0,94.305,0,0
+2026,18,United States Grand Prix,2026-10-25,LAW,Liam Lawson,RB F1 Team,9.0,9.0,Finished,10.0,95.058,0,0
+2026,18,United States Grand Prix,2026-10-25,GAS,Pierre Gasly,Alpine F1 Team,10.0,10.0,Finished,11.0,95.08,0,0
+2026,18,United States Grand Prix,2026-10-25,HUL,Nico Hülkenberg,Audi,11.0,11.0,Finished,12.0,95.158,0,0
+2026,18,United States Grand Prix,2026-10-25,LIN,Arvid Lindblad,RB F1 Team,14.0,12.0,Lapped,9.0,94.95,0,0
+2026,18,United States Grand Prix,2026-10-25,BOR,Gabriel Bortoleto,Audi,21.0,13.0,Lapped,13.0,95.632,0,0
+2026,18,United States Grand Prix,2026-10-25,OCO,Esteban Ocon,Haas F1 Team,15.0,14.0,Lapped,17.0,96.531,0,0
+2026,18,United States Grand Prix,2026-10-25,STR,Lance Stroll,Aston Martin,22.0,15.0,Lapped,18.0,96.677,0,0
+2026,18,United States Grand Prix,2026-10-25,ALO,Fernando Alonso,Aston Martin,12.0,16.0,Lapped,15.0,95.818,0,0
+2026,18,United States Grand Prix,2026-10-25,ALB,Alexander Albon,Williams,17.0,17.0,Lapped,20.0,96.967,0,0
+2026,18,United States Grand Prix,2026-10-25,SAI,Carlos Sainz,Williams,16.0,18.0,Lapped,19.0,96.77,0,0
+2026,18,United States Grand Prix,2026-10-25,PER,Sergio Pérez,Cadillac F1 Team,18.0,19.0,Lapped,21.0,97.433,0,0
+2026,18,United States Grand Prix,2026-10-25,BOT,Valtteri Bottas,Cadillac F1 Team,19.0,20.0,Retired,22.0,97.523,0,0
+2026,18,United States Grand Prix,2026-10-25,COL,Franco Colapinto,Alpine F1 Team,20.0,21.0,Retired,14.0,95.722,0,0
+2026,18,United States Grand Prix,2026-10-25,BEA,Oliver Bearman,Haas F1 Team,13.0,22.0,Retired,16.0,96.031,0,0
