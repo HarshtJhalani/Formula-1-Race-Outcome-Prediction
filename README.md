@@ -71,6 +71,7 @@ All features are known before the race starts.
 │   ├── models.py
 │   └── predict.py
 ├── data/            cache/ (FastF1), raw/, processed/
+├── models/          saved final model (podium_logreg.joblib)
 ├── docs/            charts used in this README
 ├── reports/         research report: how others predict F1 results
 └── research_notes/  source notes behind the report
@@ -92,6 +93,23 @@ python -m src.models
 ```
 
 Data collection pulls about 90 races from FastF1, which allows 500 API calls an hour. If you hit `RateLimitExceededError`, wait an hour and re-run. Finished seasons are saved to `data/raw/seasons/` and cached sessions are reused, so each run picks up where the last one stopped.
+
+## Final model
+
+`models/podium_logreg.joblib` is the final model: logistic regression (C=0.3) on 18 pre-race features, trained on all 2022–2025 races (1,836 driver-race rows). It's saved with its feature list, training seasons and 2025 test scores.
+
+```bash
+python -m src.models --save
+```
+
+```python
+from src.models import load_final_model
+
+bundle = load_final_model()
+probs = bundle["model"].predict_proba(features[bundle["features"]])[:, 1]
+```
+
+`src.predict` retrains on every race before the one you ask for, so each prediction uses the latest results. The saved model is a fixed snapshot of the evaluated setup.
 
 ## Predict a race
 
